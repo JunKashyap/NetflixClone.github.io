@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@WEIGHT_OR_RANGE&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.row{
+    margin-top: 0;
+    margin-bottom: 0rem;
+    padding: 20px;
+    color: white;
+    font-family: sans-serif;
+    max-height: 200px;
+    /* border: solid white; */
+}
+.largeRow{
+        margin-top: 0.4rem;
+        margin-bottom: 0;
+        padding: 20px;
+        color: white;
+        font-family: sans-serif;
+        max-height: 300px;
+        /* border: solid white; */
+}
+
+.row_posters{
+    padding-left: 1.5rem;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row_poster{
+    margin-top: 1rem;
+    max-height: 135px;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    border-radius: 3px;
+    object-fit: contain;
+    transition: transform 450ms;
+}
+
+.row_LargePoster{
+    max-height: 208px;
+    margin-left: .5rem;
+}
+
+.row_poster:hover{
+    transform: scale(1.08);
+    opacity: 1;
+}
+
+
+
+

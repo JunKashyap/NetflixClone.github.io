@@ -1,0 +1,93 @@
+.loginScreen{
+    font-family: sans-serif;
+    position: relative;
+    height: 100%;
+    background-image: url("//browsecat.art/sites/default/files/netflix-background-128505-385456-9916359.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.loginScreen__logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.loginScreen__button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.loginScreen__gradient{
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+    background: rgba(0, 0 , 0, 0.4);
+    background-image:linear-gradient(
+       to top,
+       rgba(0,0,0, 0.8) 0,
+       rgba(0,0,0,0) 60%,
+       rgba(0,0,0,0.8) 100%
+    );
+}
+
+.loginScreen__body h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+    font-weight: 400 ;
+}
+
+.loginScreen__body h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.loginScreen__body{
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    line-height: 3rem;
+}
+.loginScreen_input{
+    margin: 20px;
+}
+
+.loginScreen_input > form > input{
+    padding: 10px;
+    width: 45%;
+}
+
+.loginScreen_input input{
+    width: 80%;
+    max-width: 700px;
+    height: 30px;
+    border: none;
+}
+
+.loginScreen__getStarted{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
